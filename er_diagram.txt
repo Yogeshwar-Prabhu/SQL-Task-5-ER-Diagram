@@ -1,5 +1,0 @@
-ER DIAGRAM (TEXT REPRESENTATION)
-
-AUTHORS (author_id PK) 1---∞ BOOKS (author_id FK)
-BOOKS (book_id PK) 1---∞ BORROWED_BOOKS (book_id FK)
-MEMBERS (member_id PK) 1---∞ BORROWED_BOOKS (member_id FK)
